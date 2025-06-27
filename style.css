@@ -1,0 +1,14 @@
+body {
+	font-family: "Trebuchet MS";
+	margin: 0;
+	height: 100vh;
+	background: linear-gradient(to bottom, #00101c, #00192b);
+}
+
+.game-text {
+	color: white;
+}
+
+.game-container {
+	display: flex;
+}
