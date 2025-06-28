@@ -1,14 +1,9 @@
-:root {
-	--ROWS: 5;
-	--COLS: 5;
-}
-
 body {
 	font-size: 42px;
 	font-family: "Trebuchet MS";
-	margin: 0;
+	margin-top: 100px;
 	height: 100vh;
-	background: linear-gradient(to bottom, #00101c, #00192b);
+	background: #0A0B0B;
 }
 
 .game-text {
@@ -37,8 +32,20 @@ body {
 	height: 50px;
 	
 	border-radius: 4px;
-	background: radial-gradient(to right, red, blue);
-	color: #1a1a1a;
+	background: #272727;
+	color: white;
 	border: 2px solid #dbdbdb;
 	border-radius: 100;
+}
+
+.game-tile.present {
+	background: yellow;
+}
+
+.game-tile.absent {
+
+}
+
+.game-tile.correct {
+
 }
